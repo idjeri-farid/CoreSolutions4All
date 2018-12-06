@@ -1,4 +1,5 @@
-.vscode
+
+.vscodr
 bin
 obj
 *.db

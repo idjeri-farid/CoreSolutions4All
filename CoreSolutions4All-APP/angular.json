@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "CoreSolutions4ll-APP": {
+    "CoreSolutions4All-APP": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/CoreSolutions4ll-APP",
+            "outputPath": "dist/CoreSolutions4All-APP",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "CoreSolutions4ll-APP:build"
+            "browserTarget": "CoreSolutions4All-APP:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "CoreSolutions4ll-APP:build:production"
+              "browserTarget": "CoreSolutions4All-APP:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "CoreSolutions4ll-APP:build"
+            "browserTarget": "CoreSolutions4All-APP:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "CoreSolutions4ll-APP-e2e": {
+    "CoreSolutions4All-APP-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,7 +103,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "CoreSolutions4ll-APP:serve"
+            "devServerTarget": "CoreSolutions4All-APP:serve"
           }
         },
         "lint": {
@@ -118,5 +118,5 @@
       }
     }
   },
-  "defaultProject": "CoreSolutions4ll-APP"
+  "defaultProject": "CoreSolutions4All-APP"
 }
